@@ -1,14 +1,16 @@
 #
 # production configuration
 #
+mybatis:
+   config-location: classpath:mybatis/configuration.xml
+   
 spring:
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
       url: jdbc:mysql://34.64.148.106:3307/webdb?characterEncoding=utf8
       username: return0
       password: 1234
-mybatis:
-   config-location: classpath:mybatis/configuration.xml
+
 eureka:
    instance:
       preferIpAddress: true
@@ -16,7 +18,7 @@ eureka:
       fetchRegistry: true
       registerWithEureka: true
       serviceUrl:
-         defaultZone: http://49.247.9.194:8761/eureka
+         defaultZone: http://34.64.148.106:8761/eureka
 logging:
    pattern:
       file: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n"

@@ -1,7 +1,6 @@
 #
 # default configuration
 #
-spring:
 server:
    port: 0
    servlet:

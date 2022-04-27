@@ -1,13 +1,14 @@
 #
 # development configuration
 #
+mybatis:
+   config-location: classpath:mybatis/configuration.xml
+   
 spring:
    devtools:
       livereload:
          enabled: true
-mybatis:
-   config-location: classpath:mybatis/configuration.xml
-   
+         
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
       url: jdbc:mysql://34.64.148.106:3307/webdb?characterEncoding=utf8

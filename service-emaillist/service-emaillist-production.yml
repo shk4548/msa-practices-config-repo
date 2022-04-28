@@ -18,7 +18,7 @@ eureka:
       fetchRegistry: true
       registerWithEureka: true
       serviceUrl:
-         defaultZone: http://34.64.148.106:8761/eureka
+         defaultZone: http://34.64.240.101:8761/eureka
 logging:
    pattern:
       file: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n"

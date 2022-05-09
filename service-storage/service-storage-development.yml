@@ -19,7 +19,7 @@ eureka:
       serviceUrl:
          defaultZone: http://localhost:8761/eureka
 storage:
-   location: /Users/kickscar/service-storage/assets
+   location: C:\\qr\\
    httpd:
       host: localhost
       port: 9999

@@ -22,7 +22,7 @@ storage:
    location: C:\\qr\\
    httpd:
       host: localhost
-      port: 9999
+      port: 8080
 logging:
    pattern:
       console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n"
